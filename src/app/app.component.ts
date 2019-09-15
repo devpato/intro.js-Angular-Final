@@ -30,7 +30,8 @@ export class AppComponent implements OnInit {
           intro: 'More features, more fun.',
           position: 'right'
         }
-      ]
+      ],
+      showProgress: true
     });
   }
 

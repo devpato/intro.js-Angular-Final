@@ -36,12 +36,15 @@ export class SidebarComponent implements OnInit {
             position: 'right'
           },
           {
-            //As you can see, thanks to the element ID I can set a step in an element in an other component
+            // As you can see, thanks to the element ID
+            // I can set a step in an element in an other component
             element: '#step1',
             intro: 'Accessed and element in another component',
             position: 'right'
           }
-        ]
+        ],
+        hidePrev: true,
+        hideNext: false
       })
       .start();
   }
