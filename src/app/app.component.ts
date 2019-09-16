@@ -35,7 +35,7 @@ export class AppComponent implements OnInit {
     });
   }
 
-  ngOnInit() {
+  ngOnInit(): void {
     this.introJS.start();
   }
 }
